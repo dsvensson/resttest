@@ -23,7 +23,7 @@ abstract class BaseTest : JerseyTest() {
         println("BaseTest instance $seed")
     }
 
-    @BeforeProperty
+    @BeforeProperty // Fixes setup for jqwik, but prevents reusing the same class
     @BeforeAll
     fun before() = setUp()
 
