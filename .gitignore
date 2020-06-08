@@ -1,0 +1,5 @@
+/.attach*
+/.gradle
+/.idea
+/.jqwik-database
+/build
